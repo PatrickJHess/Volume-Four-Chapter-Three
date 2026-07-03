@@ -1,10 +1,10 @@
 # 📈 ➡️ 🎯 The Term Structure Determines Yields To Maturity
 
-## What Is The Yield To Maturity And Why It Matters
+## 💡🎯 What Is The Yield To Maturity And Why It Matters
 
 The Yield to Maturity ($\text{ytm}$) of a bond is defined as the single discount rate ($\text{ytm}$) that equates the present value of the bond's expected future cash flows (coupons and principal) to its current market value.
 
-## Formula and Calculation
+## 🧮📝 Formula and Calculation
 
 The general formula for a bond's value is:
 
@@ -18,7 +18,7 @@ For a zero-coupon bond (a bond making a single payment at maturity), $\text{ytm}
 
 $$P(t) = e^{-\text{ytm}\times t}\times \text{Cash Flow}_t$$
 
-## Limitations of Yield To Maturity
+## ⚠️🚧 Limitations of Yield To Maturity
 
 The yield to maturity ($\text{ytm}$) is often, but incorrectly, assumed to be the actual internal rate of return (IRR) an investor will earn by holding a bond until maturity. This assumption holds true only for default-free bonds that involve a single payment at maturity.
 
@@ -26,7 +26,7 @@ For bonds with multiple cash flows (i.e., coupon payments), the $\text{ytm}$ is 
 
 Despite these limitations, it is important to recognize that bond pricing inherently incorporates the prevailing term structure of interest rates and reflects forward rates that are indicative of future reinvestment returns.
 
-## Calculating The Yield To Maturity
+## 🔄⚙️ Calculating The Yield To Maturity
 
 As noted above, the $\text{ytm}$ of a bond making a single payment may be directly calculated. There is no simple calculation for bonds that make multiple payments. A trial and error process is required. A practical way to implement the technique is a comparison of the errors of two initial guesses and then adjusting subsequent guesses based on the average rate of change between the errors and the guesses.
 
@@ -48,7 +48,7 @@ The first derivative of the function is:
 $$\large\ -\sum_{t=1}^{T} t\times\text{Cash Flow}_t\times e^{-\text{rate}\times t}$$
 <br><br>
 
-## A Three Bond Example
+## 📊🏦 A Three Bond Example
 
 The yield to maturity on all three bonds is assumed to be 5% per annum. Coupon payments are semi-annual. The initial guess for each bond is 4%. 
 
