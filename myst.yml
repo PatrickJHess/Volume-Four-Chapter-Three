@@ -1,7 +1,7 @@
 version: 1
 project:
   title: >-
-    "Yields To Maturity and The Term Structure: Theory & Practice"
+    "📈🛠️ Yields To Maturity and The Term Structure: Theory & Practice"
   abstract: |
     How Term Structure Drives Yields To matiroity
   github: PatrickJHess/Volume-Four-Chapter-Three
@@ -34,8 +34,6 @@ project:
           file: Chapter_Three_Highlights.md
         - title: 📈 ➡️ 🎯 The Term Structure Determines Yields To Maturity
           file: Yield_To_Maturity_Overview.md
-        - title: Par Yields and the Term Structure
-          file: notebooks/Calculating_Par_Yields.ipynb
         - title: The Term Structure Of Interest Rates Drives Yields To Maturity 📓 📈 🎯
           file: notebooks/Calculating_Yields_To_Maturity.ipynb
         - title: Chapter Summary
@@ -48,12 +46,12 @@ project:
           url: https://patrickjhess.github.io/Volume-Four-Chapter-One/
         - title: 'Chapter Two: Par Yields And The Term Structure Of Interest Rates'
           url: https://patrickjhess.github.io/Volume-Four-Chapter-Two/
-        - title: 'Chapters Four: Interest Rate Risk- Duration And Convesxity'
+        - title: 'Chapters Four:  📈 Interest Rate Risk: From Static Metrics to Dynamic Simulation'
           url: https://patrickjhess.github.io/Volume-Four-Chapter-Four/
 
   jupyter:
     binder:
-      repo: PatrickJHess/Volume-Three-Chapter-Four
+      repo: PatrickJHess/Volume-Four-Chapter-Three
       ref: master
  
 site:

@@ -1,8 +1,8 @@
 # Financial Python
-## Volume: Pricing And Interest Rate Risk
-## Chapter Three: Yield To Maturity And The Term Structure Of Interest Rates
+## 📚 Volume: Pricing And Interest Rate Risk
+## Chapter Three: ⏳📈 Yield To Maturity And The Term Structure Of Interest Rates
 
-### **Reality, Arbitrage, and Valuation**
+### **⚖️💵 Reality, Arbitrage, and Valuation**
 
 Let’s remind ourselves what actually trades in the fixed-income market. Investors cannot purchase a "par yield," nor can they directly buy the "term structure." These are theoretical constructs used to map the market. In reality, investors buy individual bonds—discrete, messy packages of future cash flows. Because you are buying a pre-packaged bundle of cash flows, the market relies on a fundamental rule to determine a bond's fair price: **The Law of One Price**.
 
@@ -20,7 +20,7 @@ $$r(t) = \text{YTM}  \quad t \in \{1, 2, 3, \dots, T\}$$
 
 $$\text{Value Of Bond} =\sum_t^{T}\text{Pay Off}_t\times  e^{\textstyle -\mathrm{YTM}\times t}$$
 
-### The "Non-Linear Combination" (The Coupon Effect)
+### ✂️⏳ The "Non-Linear Combination" (The Coupon Effect)
 
 Because of the exponent in the valuation formula ($e^{-\mathrm{YTM} \times t}$), cash flows occurring further into the future are mathematically penalized—discounted much more heavily than near-term cash flows. YTM acts as a complex, time-weighted average of the underlying spot rates-two bonds with the exact same maturity will often have different Yields to Maturity:
 
