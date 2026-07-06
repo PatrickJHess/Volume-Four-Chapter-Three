@@ -2,7 +2,7 @@
 
 
 
-# Imported Functions
+# 🛠️ Imported Functions
 
 :::{dropdown} Click to see `FEDInvest`
 ```python

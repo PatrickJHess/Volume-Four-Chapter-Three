@@ -30,13 +30,13 @@ project:
           file: Interacting With Jupyter Books.md
     - title: 'Chapter Three: Yields To Maturity And The Term Structure Of Interest Rates'
       children:
-        - title: Chapter Highlights
+        - title: ✨ Chapter Highlights
           file: Chapter_Three_Highlights.md
         - title: 📈 ➡️ 🎯 The Term Structure Determines Yields To Maturity
           file: Yield_To_Maturity_Overview.md
         - title: The Term Structure Of Interest Rates Drives Yields To Maturity 📓 📈 🎯
           file: notebooks/Calculating_Yields_To_Maturity.ipynb
-        - title: Chapter Summary
+        - title: 📝📉  Chapter Summary
           file: Chapter_Summary.md
         - title: Imported Functions and FredReader
           file: imported_functions.md
