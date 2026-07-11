@@ -27,7 +27,7 @@ project:
     - title: Getting Started
       children:
         - title: Interacting With Jupyter Books
-          file: Interacting With Jupyter Books.md
+          file: shared_files_finpy/Interacting With Jupyter Books
     - title: 'Chapter Three: Yields To Maturity And The Term Structure Of Interest Rates'
       children:
         - title: ✨ Chapter Highlights
@@ -58,7 +58,7 @@ site:
   template: book-theme
   options:
     repository: https://github.com/PatrickJHess/Volume-Four-Chapter-Three
-    style: static/custom.css
+    style: shared_files_finpy/static/custom.css
     base_url: /Volume-Four-Chapter-Three/
     thebe: true  # This enables the engine
     # The 'binder' block MUST be indented under 'options'
