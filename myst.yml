@@ -52,7 +52,7 @@ project:
   jupyter:
     binder:
       repo: PatrickJHess/Volume-Four-Chapter-Three
-      ref: master
+      ref: main
  
 site:
   template: book-theme
