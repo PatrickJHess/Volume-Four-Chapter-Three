@@ -31,17 +31,15 @@ project:
     - title: Getting Started
       children:
         - title: Interacting With Jupyter Books
-          file: shared_files_finpy/Interacting With Jupyter Books
-    - title: 'Chapter Two: Par Yields And The Term Structure Of Interest Rates'
+          file: shared_files_finpy/Interacting With Jupyter Books.md
+    - title: 'Chapter Three: ⏳📈 Yield To Maturity And The Term Structure Of Interest Rates'
       children:
         - title: ✨ Chapter Highlights
-          file: Chapter_Two_Highlights.md
-        - title: ☝ Term Structure ⇄ Par Yields
-          file: Define_Par_Yields.md
-        - title: ⚖️📈 Par Yields and the Term Structure
-          file: notebooks/Calculating_Par_Yields.ipynb
-        - title: A Well-Balanced 🐴 + 🐰 Stew
-          file: notebooks/The_Term_Structure_From_Par_Yields.ipynb
+          file: Chapter_Three_Highlights.md
+        - title: 💡🎯 What Is The Yield To Maturity And Why It Matters
+          file: Yield_To_Maturity_Overview.md
+        - title: The Term Structure Of Interest Rates Drives Yields To Maturity 📓 📈 🎯
+          file: notebooks/Calculating_Yields_To_Maturity.ipynb
         - title: 📝 Chapter Summary
           file: Chapter_Summary.md
         - title: Imported Functions and FredReader
@@ -65,16 +63,11 @@ site:
   options:
     repository: https://github.com/PatrickJHess/Volume-Four-Chapter-Two
     style: shared_files_finpy/static/custom.css
-    base_url: /Volume-Four-Chapter-Two/
-    thebe: true  # This enables the engine
-    # The 'binder' block MUST be indented under 'options'
-    binder:
-      repo: PatrickJHess/Volume-Four-Chapter-Two
-      ref: master
-      binderUrl: https://mybinder.org 
+    base_url: /Volume-Four-Chapter-Three/
 
 
 
 
-      
+
+
 
